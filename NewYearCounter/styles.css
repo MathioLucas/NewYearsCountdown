@@ -1,0 +1,50 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#timer {
+    font-size: 50px;
+    color: rgb(140, 61, 61);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);  /* Optional: dark background for better visibility */
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: url('./pixelArt.gif') no-repeat center center fixed;
+    background-size: 100%; /* Ensures the GIF scales properly to fit the entire viewport */
+    overflow: hidden; /* Prevents scrolling */
+  }
+  
+
+.counter-container {
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    margin: 20px 0;
+}
+
